@@ -18,7 +18,7 @@ async function main() {
   );
 
   let transaction = {
-    to: 0x1Ab7e8d694540BCfCa0C74F033201FA99a928db7,
+    to: "0x32A0872B14777D73F553F7e46eA30b9610926761",
     value: Utils.parseEther('0.001'), // 0.001 worth of ETH being sent
     gasLimit: '21000',
     maxPriorityFeePerGas: Utils.parseUnits('5', 'gwei'),
